@@ -1,0 +1,13 @@
+obs_space:  [[36, [1, 12], [1, 6], [1, 4], [1, 14]], [36, [1, 12], [1, 6], [1, 4], [1, 14]]]
+share_obs_space:  [[44, [1, 15], [1, 9], [1, 4], [1, 16]], [44, [1, 15], [1, 9], [1, 4], [1, 16]]]
+act_space:  [Discrete(7), Discrete(7)]
+Traceback (most recent call last):
+  File "../train/train_smac.py", line 261, in <module>
+    main(sys.argv[1:])
+  File "../train/train_smac.py", line 245, in main
+    runner = Runner(config)
+  File "/content/drive/MyDrive/on-policy/onpolicy/runner/shared/smac_runner.py", line 14, in __init__
+    super(SMACRunner, self).__init__(config)
+  File "/content/drive/MyDrive/on-policy/onpolicy/runner/shared/base_runner.py", line 85, in __init__
+    device = self.device)
+TypeError: __init__() got multiple values for argument 'device'

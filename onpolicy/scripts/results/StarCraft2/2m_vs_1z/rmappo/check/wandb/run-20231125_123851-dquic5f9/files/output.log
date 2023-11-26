@@ -1,0 +1,243 @@
+obs_space:  [[36, [1, 12], [1, 6], [1, 4], [1, 14]], [36, [1, 12], [1, 6], [1, 4], [1, 14]]]
+share_obs_space:  [[44, [1, 15], [1, 9], [1, 4], [1, 16]], [44, [1, 15], [1, 9], [1, 4], [1, 16]]]
+act_space:  [Discrete(7), Discrete(7)]
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 21031 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-0a29718p/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 22913 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-9b8tzkda/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 15269 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-2zcra52j/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 21315 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-aicwngjd/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 24395 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-0ih9nipz/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 17973 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-0paj3zfg/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 16411 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-da4n1lya/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 22112 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-yqh_28bg/'
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:22913
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:41156 accepted
+ReadyHandler: 127.0.0.1:41156 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Listening on: 127.0.0.1:17973
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:21031
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:21315
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:16411
+Listening on: 127.0.0.1:22112
+ConnectHandler: Request from 127.0.0.1:36168 accepted
+ReadyHandler: 127.0.0.1:36168 ready
+ConnectHandler: Request from 127.0.0.1:50804 accepted
+ReadyHandler: 127.0.0.1:50804 ready
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:57486 accepted
+ReadyHandler: 127.0.0.1:57486 ready
+ConnectHandler: Request from 127.0.0.1:44904 accepted
+ReadyHandler: 127.0.0.1:44904 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+ConnectHandler: Request from 127.0.0.1:40480 accepted
+ReadyHandler: 127.0.0.1:40480 ready
+Startup Phase 3 complete. Ready for commands.
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Listening on: 127.0.0.1:24395
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:15269
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:58540 accepted
+ReadyHandler: 127.0.0.1:58540 ready
+ConnectHandler: Request from 127.0.0.1:44006 accepted
+ReadyHandler: 127.0.0.1:44006 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Game has started.
+Game has started.
+Sending ResponseJoinGame
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+Sending ResponseJoinGame
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+Game has started.
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+Sending ResponseJoinGame
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+Traceback (most recent call last):
+  File "../train/train_smac.py", line 262, in <module>
+    main(sys.argv[1:])
+  File "../train/train_smac.py", line 247, in main
+    runner.run()
+  File "/content/drive/MyDrive/on-policy/onpolicy/runner/shared/smac_runner.py", line 44, in run
+    self.compute()
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/torch/autograd/grad_mode.py", line 15, in decorate_context
+    return func(*args, **kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/runner/shared/base_runner.py", line 136, in compute
+    self.buffer.compute_returns(next_values, self.trainer.value_normalizer)
+  File "/content/drive/MyDrive/on-policy/onpolicy/utils/shared_buffer.py", line 238, in compute_returns
+    - value_normalizer.denormalize(self.value_preds[step])
+  File "/content/drive/MyDrive/on-policy/onpolicy/utils/valuenorm.py", line 75, in denormalize
+    out = input_vector * torch.sqrt(var)[(None,) * self.norm_axes] + mean[(None,) * self.norm_axes]
+RuntimeError: expected device cpu but got device cuda:0

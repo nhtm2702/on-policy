@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "../train/train_smac.py", line 262, in <module>
+    main(sys.argv[1:])
+  File "../train/train_smac.py", line 246, in main
+    runner = Runner(config)
+  File "/content/drive/MyDrive/on-policy/onpolicy/runner/shared/smac_runner.py", line 14, in __init__
+    super(SMACRunner, self).__init__(config)
+  File "/content/drive/MyDrive/on-policy/onpolicy/runner/shared/base_runner.py", line 70, in __init__
+    from onpolicy.algorithms.r_mappo.r_mappo import R_MAPPO as TrainAlgo
+  File "/content/drive/MyDrive/on-policy/onpolicy/algorithms/r_mappo/r_mappo.py", line 5, in <module>
+    from onpolicy.utils.valuenorm import ValueNorm
+  File "/content/drive/MyDrive/on-policy/onpolicy/utils/valuenorm.py", line 11
+    def __init__(self, input_shape, norm_axes=1, beta=0.99999, per_element_update=False, epsilon=1e-5, device):
+                ^
+SyntaxError: non-default argument follows default argument

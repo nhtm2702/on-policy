@@ -1,0 +1,663 @@
+obs_space:  [[36, [1, 12], [1, 6], [1, 4], [1, 14]], [36, [1, 12], [1, 6], [1, 4], [1, 14]]]
+share_obs_space:  [[44, [1, 15], [1, 9], [1, 4], [1, 16]], [44, [1, 15], [1, 9], [1, 4], [1, 16]]]
+act_space:  [Discrete(7), Discrete(7)]
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 15683 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-ou2jk686/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 15137 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-pobldd7o/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 18465 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-vssjipf3/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 19122 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-7tf2h20e/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 15681 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-kkdm2chp/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 23823 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-p5vs6_fa/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 17526 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-wi8sl15k/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 21323 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-zsm_wmf7/'
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:23823
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:15137
+Listening on: 127.0.0.1:15683
+Startup Phase 3 complete. Ready for commands.
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:19122
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:21323
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:18465
+Listening on: 127.0.0.1:15681
+Startup Phase 3 complete. Ready for commands.
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:17526
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:48340 accepted
+ReadyHandler: 127.0.0.1:48340 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+ConnectHandler: Request from 127.0.0.1:45122 accepted
+ReadyHandler: 127.0.0.1:45122 ready
+ConnectHandler: Request from 127.0.0.1:53892 accepted
+ReadyHandler: 127.0.0.1:53892 ready
+ConnectHandler: Request from 127.0.0.1:41580 accepted
+ReadyHandler: 127.0.0.1:41580 ready
+ConnectHandler: Request from 127.0.0.1:55440 accepted
+ReadyHandler: 127.0.0.1:55440 ready
+ConnectHandler: Request from 127.0.0.1:47466 accepted
+ReadyHandler: 127.0.0.1:47466 ready
+ConnectHandler: Request from 127.0.0.1:60222 accepted
+ReadyHandler: 127.0.0.1:60222 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+ConnectHandler: Request from 127.0.0.1:44990 accepted
+ReadyHandler: 127.0.0.1:44990 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Game has started.
+Game has started.
+Game has started.
+Game has started.
+Game has started.
+Game has started.
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+Sending ResponseJoinGame
+Sending ResponseJoinGame
+Sending ResponseJoinGame
+Sending ResponseJoinGame
+Sending ResponseJoinGame
+Sending ResponseJoinGame
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 0/3125 episodes, total num timesteps 3200/10000000, FPS 134.
+
+incre win rate is 0.0.
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 21349 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-vjs7n0am/'
+Starting up...
+Startup Phase 1 complete
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:21349
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:45340 accepted
+ReadyHandler: 127.0.0.1:45340 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+eval win rate is 0.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 5/3125 episodes, total num timesteps 19200/10000000, FPS 133.
+
+incre win rate is 0.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 10/3125 episodes, total num timesteps 35200/10000000, FPS 139.
+
+incre win rate is 0.002751031636863824.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 15/3125 episodes, total num timesteps 51200/10000000, FPS 143.
+
+incre win rate is 0.030252100840336135.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 20/3125 episodes, total num timesteps 67200/10000000, FPS 144.
+
+incre win rate is 0.22992700729927007.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 25/3125 episodes, total num timesteps 83200/10000000, FPS 143.
+
+incre win rate is 0.6138996138996139.
+eval win rate is 0.75.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 30/3125 episodes, total num timesteps 99200/10000000, FPS 143.
+
+incre win rate is 0.8552123552123552.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 35/3125 episodes, total num timesteps 115200/10000000, FPS 142.
+
+incre win rate is 0.9502868068833652.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 40/3125 episodes, total num timesteps 131200/10000000, FPS 142.
+
+incre win rate is 0.9810606060606061.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 45/3125 episodes, total num timesteps 147200/10000000, FPS 142.
+
+incre win rate is 0.9867924528301887.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 50/3125 episodes, total num timesteps 163200/10000000, FPS 141.
+
+incre win rate is 0.9944237918215614.
+eval win rate is 1.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 55/3125 episodes, total num timesteps 179200/10000000, FPS 140.
+
+incre win rate is 0.992633517495396.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 60/3125 episodes, total num timesteps 195200/10000000, FPS 141.
+
+incre win rate is 0.9981684981684982.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 65/3125 episodes, total num timesteps 211200/10000000, FPS 140.
+
+incre win rate is 0.9981617647058824.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 70/3125 episodes, total num timesteps 227200/10000000, FPS 140.
+
+incre win rate is 0.9981818181818182.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 75/3125 episodes, total num timesteps 243200/10000000, FPS 140.
+
+incre win rate is 0.9945652173913043.
+eval win rate is 1.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 80/3125 episodes, total num timesteps 259200/10000000, FPS 139.
+
+incre win rate is 0.9891696750902527.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 85/3125 episodes, total num timesteps 275200/10000000, FPS 139.
+
+incre win rate is 0.9945652173913043.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 90/3125 episodes, total num timesteps 291200/10000000, FPS 139.
+
+incre win rate is 0.9927536231884058.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 95/3125 episodes, total num timesteps 307200/10000000, FPS 139.
+
+incre win rate is 1.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 100/3125 episodes, total num timesteps 323200/10000000, FPS 139.
+
+incre win rate is 1.0.
+eval win rate is 1.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 105/3125 episodes, total num timesteps 339200/10000000, FPS 139.
+
+incre win rate is 0.9963768115942029.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 110/3125 episodes, total num timesteps 355200/10000000, FPS 139.
+
+incre win rate is 0.9945454545454545.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 115/3125 episodes, total num timesteps 371200/10000000, FPS 139.
+
+incre win rate is 0.9981884057971014.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 120/3125 episodes, total num timesteps 387200/10000000, FPS 139.
+
+incre win rate is 0.9964093357271095.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 125/3125 episodes, total num timesteps 403200/10000000, FPS 139.
+
+incre win rate is 0.9945945945945946.
+eval win rate is 1.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 130/3125 episodes, total num timesteps 419200/10000000, FPS 139.
+
+incre win rate is 0.9982014388489209.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 135/3125 episodes, total num timesteps 435200/10000000, FPS 139.
+
+incre win rate is 1.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 140/3125 episodes, total num timesteps 451200/10000000, FPS 139.
+
+incre win rate is 0.9964221824686941.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 145/3125 episodes, total num timesteps 467200/10000000, FPS 139.
+
+incre win rate is 0.9982174688057041.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 150/3125 episodes, total num timesteps 483200/10000000, FPS 139.
+
+incre win rate is 0.99644128113879.
+eval win rate is 1.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 155/3125 episodes, total num timesteps 499200/10000000, FPS 139.
+
+incre win rate is 1.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 160/3125 episodes, total num timesteps 515200/10000000, FPS 139.
+
+incre win rate is 1.0.
+DataHandler: unable to parse websocket frame.
+CloseHandler: 127.0.0.1:44990 disconnected
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 19695 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-yb4fwxct/'
+Starting up...
+Startup Phase 1 complete
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:19695
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:47200 accepted
+ReadyHandler: 127.0.0.1:47200 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+RequestQuit command received.
+Closing Application...
+DataHandler: unable to parse websocket frame.
+CloseHandler: 127.0.0.1:55440 disconnected
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 23070 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-rso3d5dn/'
+Starting up...
+Startup Phase 1 complete
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:23070
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:54178 accepted
+ReadyHandler: 127.0.0.1:54178 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+DataHandler: unable to parse websocket frame.
+CloseHandler: 127.0.0.1:53892 disconnected
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 24358 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-1puyowlr/'
+Starting up...
+Startup Phase 1 complete
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:24358
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:34226 accepted
+ReadyHandler: 127.0.0.1:34226 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+RequestQuit command received.
+Closing Application...
+DataHandler: unable to parse websocket frame.
+CloseHandler: 127.0.0.1:45122 disconnected
+DataHandler: unable to parse websocket frame.
+CloseHandler: 127.0.0.1:41580 disconnected
+Version: B75689 (SC2.4.10)
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 19687 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-_v_9qx22/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 18810 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-x_sdzm8f/'
+Starting up...
+Starting up...
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:18810
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:19687
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:50614 accepted
+ReadyHandler: 127.0.0.1:50614 ready
+ConnectHandler: Request from 127.0.0.1:56622 accepted
+ReadyHandler: 127.0.0.1:56622 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+DataHandler: unable to parse websocket frame.
+CloseHandler: 127.0.0.1:47466 disconnected
+DataHandler: unable to parse websocket frame.
+CloseHandler: 127.0.0.1:60222 disconnected
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 16333 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-gdhe7b8h/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 16097 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-fpm83dzt/'
+Starting up...
+Starting up...
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:16333
+Listening on: 127.0.0.1:16097
+Startup Phase 3 complete. Ready for commands.
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:34754 accepted
+ReadyHandler: 127.0.0.1:34754 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+ConnectHandler: Request from 127.0.0.1:52566 accepted
+ReadyHandler: 127.0.0.1:52566 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+DataHandler: unable to parse websocket frame.
+CloseHandler: 127.0.0.1:48340 disconnected
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 22823 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-rdxjowc6/'
+Starting up...
+Startup Phase 1 complete
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:22823
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:39122 accepted
+ReadyHandler: 127.0.0.1:39122 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Successfully loaded stable ids: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 165/3125 episodes, total num timesteps 531200/10000000, FPS 135.
+
+incre win rate is 0.9982142857142857.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 170/3125 episodes, total num timesteps 547200/10000000, FPS 136.
+
+incre win rate is 1.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 175/3125 episodes, total num timesteps 563200/10000000, FPS 136.
+
+incre win rate is 0.99822695035461.
+eval win rate is 1.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 180/3125 episodes, total num timesteps 579200/10000000, FPS 136.
+
+incre win rate is 0.99644128113879.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 185/3125 episodes, total num timesteps 595200/10000000, FPS 136.
+
+incre win rate is 0.991166077738516.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 190/3125 episodes, total num timesteps 611200/10000000, FPS 136.
+
+incre win rate is 0.998220640569395.

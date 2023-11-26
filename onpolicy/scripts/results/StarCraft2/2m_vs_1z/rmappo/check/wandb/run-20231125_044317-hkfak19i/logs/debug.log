@@ -1,0 +1,62 @@
+2023-11-25 04:43:17,090 INFO    MainThread:11798 [wandb_init.py:_log_setup():292] Logging user logs to /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231125_044317-hkfak19i/logs/debug.log
+2023-11-25 04:43:17,091 INFO    MainThread:11798 [wandb_init.py:_log_setup():293] Logging internal logs to /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231125_044317-hkfak19i/logs/debug-internal.log
+2023-11-25 04:43:17,091 INFO    MainThread:11798 [wandb_setup.py:_flush():68] setting env: {}
+2023-11-25 04:43:17,092 INFO    MainThread:11798 [wandb_setup.py:_flush():68] setting user settings: {}
+2023-11-25 04:43:17,092 INFO    MainThread:11798 [wandb_setup.py:_flush():68] multiprocessing start_methods=fork,spawn,forkserver
+2023-11-25 04:43:18,384 INFO    MainThread:11798 [wandb_run.py:_console_start():1265] atexit reg
+2023-11-25 04:43:18,390 INFO    MainThread:11798 [wandb_run.py:_redirect():1135] redirect: SettingsConsole.REDIRECT
+2023-11-25 04:43:18,391 INFO    MainThread:11798 [wandb_run.py:_redirect():1138] Redirecting console.
+2023-11-25 04:43:18,392 INFO    MainThread:11798 [redirect.py:install():196] install start
+2023-11-25 04:43:18,392 INFO    MainThread:11798 [redirect.py:install():211] install stop
+2023-11-25 04:43:18,392 INFO    MainThread:11798 [redirect.py:install():196] install start
+2023-11-25 04:43:18,393 INFO    MainThread:11798 [redirect.py:install():211] install stop
+2023-11-25 04:43:18,393 INFO    MainThread:11798 [wandb_run.py:_redirect():1182] Redirects installed.
+2023-11-25 04:43:22,261 INFO    Dummy-4   :11798 [wandb_run.py:_atexit_cleanup():1238] got exitcode: 1
+2023-11-25 04:43:22,262 INFO    Dummy-4   :11798 [wandb_run.py:_restore():1210] restore
+2023-11-25 04:43:22,262 INFO    Dummy-4   :11798 [redirect.py:uninstall():215] uninstall start
+2023-11-25 04:43:22,262 INFO    Dummy-4   :11798 [redirect.py:_stop():264] _stop: stdout
+2023-11-25 04:43:22,263 INFO    Dummy-4   :11798 [redirect.py:_stop():270] _stop closed: stdout
+2023-11-25 04:43:22,263 INFO    stdout    :11798 [redirect.py:_pipe_relay():119] relay done saw last write: stdout
+2023-11-25 04:43:22,263 INFO    stdout    :11798 [redirect.py:_pipe_relay():135] relay done done: stdout
+2023-11-25 04:43:22,264 INFO    Dummy-4   :11798 [redirect.py:_stop():276] _stop joined: stdout
+2023-11-25 04:43:22,264 INFO    Dummy-4   :11798 [redirect.py:_stop():278] _stop rd closed: stdout
+2023-11-25 04:43:22,264 INFO    Dummy-4   :11798 [redirect.py:uninstall():219] uninstall done
+2023-11-25 04:43:22,264 INFO    Dummy-4   :11798 [redirect.py:uninstall():215] uninstall start
+2023-11-25 04:43:22,265 INFO    Dummy-4   :11798 [redirect.py:_stop():264] _stop: stderr
+2023-11-25 04:43:22,265 INFO    Dummy-4   :11798 [redirect.py:_stop():270] _stop closed: stderr
+2023-11-25 04:43:22,283 INFO    stderr    :11798 [redirect.py:_pipe_relay():119] relay done saw last write: stderr
+2023-11-25 04:43:22,284 INFO    stderr    :11798 [redirect.py:_pipe_relay():135] relay done done: stderr
+2023-11-25 04:43:22,284 INFO    Dummy-4   :11798 [redirect.py:_stop():276] _stop joined: stderr
+2023-11-25 04:43:22,284 INFO    Dummy-4   :11798 [redirect.py:_stop():278] _stop rd closed: stderr
+2023-11-25 04:43:22,285 INFO    Dummy-4   :11798 [redirect.py:uninstall():219] uninstall done
+2023-11-25 04:43:22,290 INFO    Dummy-4   :11798 [wandb_run.py:_wait_for_finish():1349] got exit ret: uuid: "d6798287443c4fbea887223430be1a3f"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1311
+      total_bytes: 1311
+    }
+  }
+}
+
+2023-11-25 04:43:24,296 INFO    Dummy-4   :11798 [wandb_run.py:_wait_for_finish():1349] got exit ret: uuid: "50139defcf7547ad87f1ae2cb6d5e005"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 22771
+      total_bytes: 22771
+    }
+  }
+}
+
+2023-11-25 04:43:25,383 INFO    Dummy-4   :11798 [wandb_run.py:_show_files():1543] logging synced files
+2023-11-25 04:43:25,384 INFO    Dummy-4   :11798 [internal.py:handle_exit():137] Internal process exited

@@ -1,0 +1,6 @@
+2023-11-24 10:16:36,597 INFO    MainThread:7109 [wandb_init.py:_log_setup():292] Logging user logs to /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_101636-2mqra48l/logs/debug.log
+2023-11-24 10:16:36,598 INFO    MainThread:7109 [wandb_init.py:_log_setup():293] Logging internal logs to /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_101636-2mqra48l/logs/debug-internal.log
+2023-11-24 10:16:36,599 INFO    MainThread:7109 [wandb_setup.py:_flush():68] setting env: {}
+2023-11-24 10:16:36,599 INFO    MainThread:7109 [wandb_setup.py:_flush():68] setting user settings: {}
+2023-11-24 10:16:36,599 INFO    MainThread:7109 [wandb_setup.py:_flush():68] multiprocessing start_methods=fork,spawn,forkserver
+2023-11-24 10:17:12,589 INFO    MainThread:7109 [wandb_init.py:teardown():154] tearing down wandb.init

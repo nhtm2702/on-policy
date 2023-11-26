@@ -1,0 +1,239 @@
+obs_space:  [[36, [1, 12], [1, 6], [1, 4], [1, 14]], [36, [1, 12], [1, 6], [1, 4], [1, 14]]]
+share_obs_space:  [[44, [1, 15], [1, 9], [1, 4], [1, 16]], [44, [1, 15], [1, 9], [1, 4], [1, 16]]]
+act_space:  [Discrete(7), Discrete(7)]
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 18279 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-7ijr3lnb/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 20317 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-su2vza4x/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 17918 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-kh3ba9no/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 20583 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-k51d76gm/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 20239 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-66nh9mn5/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 21677 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-1j5b1802/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 19546 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-cf8gv1ua/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 19976 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-l9_qtvfj/'
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:20239
+Listening on: 127.0.0.1:19976
+ConnectHandler: Request from 127.0.0.1:58314 accepted
+ReadyHandler: 127.0.0.1:58314 ready
+Startup Phase 3 complete. Ready for commands.
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:57212 accepted
+ReadyHandler: 127.0.0.1:57212 ready
+Listening on: 127.0.0.1:20317
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:18279
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:21677
+Startup Phase 3 complete. Ready for commands.
+Process Process-4:
+Process Process-2:
+Listening on: 127.0.0.1:17918
+ConnectHandler: Request from 127.0.0.1:39696 accepted
+ReadyHandler: 127.0.0.1:39696 ready
+ConnectHandler: Request from 127.0.0.1:46740 accepted
+ReadyHandler: 127.0.0.1:46740 ready
+ConnectHandler: Request from 127.0.0.1:47896 accepted
+ReadyHandler: 127.0.0.1:47896 ready
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:20583
+Process Process-7:
+Process Process-8:
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 316, in shareworker
+    ob, s_ob, available_actions = env.reset()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 345, in _launch
+    map_data=self._run_config.map_data(_map.path)),
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/run_configs/lib.py", line 126, in map_data
+    raise ValueError("Map '%s' not found." % map_name)
+ValueError: Map 'SMAC_Maps/2m_vs_1z.SC2Map' not found.
+Startup Phase 3 complete. Ready for commands.
+Process Process-6:
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 316, in shareworker
+    ob, s_ob, available_actions = env.reset()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 345, in _launch
+    map_data=self._run_config.map_data(_map.path)),
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/run_configs/lib.py", line 126, in map_data
+    raise ValueError("Map '%s' not found." % map_name)
+ValueError: Map 'SMAC_Maps/2m_vs_1z.SC2Map' not found.
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 316, in shareworker
+    ob, s_ob, available_actions = env.reset()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 345, in _launch
+    map_data=self._run_config.map_data(_map.path)),
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/run_configs/lib.py", line 126, in map_data
+    raise ValueError("Map '%s' not found." % map_name)
+ValueError: Map 'SMAC_Maps/2m_vs_1z.SC2Map' not found.
+CloseHandler: 127.0.0.1:57212 disconnected
+ConnectHandler: Request from 127.0.0.1:39418 accepted
+ReadyHandler: 127.0.0.1:39418 ready
+CloseHandler: 127.0.0.1:39696 disconnected
+ConnectHandler: Request from 127.0.0.1:39632 accepted
+ReadyHandler: 127.0.0.1:39632 ready
+Process Process-3:
+CloseHandler: 127.0.0.1:46740 disconnected
+Process Process-9:
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 316, in shareworker
+    ob, s_ob, available_actions = env.reset()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 345, in _launch
+    map_data=self._run_config.map_data(_map.path)),
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/run_configs/lib.py", line 126, in map_data
+    raise ValueError("Map '%s' not found." % map_name)
+ValueError: Map 'SMAC_Maps/2m_vs_1z.SC2Map' not found.
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 316, in shareworker
+    ob, s_ob, available_actions = env.reset()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 345, in _launch
+    map_data=self._run_config.map_data(_map.path)),
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/run_configs/lib.py", line 126, in map_data
+    raise ValueError("Map '%s' not found." % map_name)
+ValueError: Map 'SMAC_Maps/2m_vs_1z.SC2Map' not found.
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 316, in shareworker
+    ob, s_ob, available_actions = env.reset()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 345, in _launch
+    map_data=self._run_config.map_data(_map.path)),
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/run_configs/lib.py", line 126, in map_data
+    raise ValueError("Map '%s' not found." % map_name)
+ValueError: Map 'SMAC_Maps/2m_vs_1z.SC2Map' not found.
+CloseHandler: 127.0.0.1:58314 disconnected
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 316, in shareworker
+    ob, s_ob, available_actions = env.reset()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 345, in _launch
+    map_data=self._run_config.map_data(_map.path)),
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/run_configs/lib.py", line 126, in map_data
+    raise ValueError("Map '%s' not found." % map_name)
+ValueError: Map 'SMAC_Maps/2m_vs_1z.SC2Map' not found.
+CloseHandler: 127.0.0.1:47896 disconnected
+Listening on: 127.0.0.1:19546
+Startup Phase 3 complete. Ready for commands.
+CloseHandler: 127.0.0.1:39418 disconnected
+CloseHandler: 127.0.0.1:39632 disconnected
+ConnectHandler: Request from 127.0.0.1:33634 accepted
+ReadyHandler: 127.0.0.1:33634 ready
+Process Process-5:
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 316, in shareworker
+    ob, s_ob, available_actions = env.reset()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 388, in reset
+    self._launch()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 345, in _launch
+    map_data=self._run_config.map_data(_map.path)),
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/run_configs/lib.py", line 126, in map_data
+    raise ValueError("Map '%s' not found." % map_name)
+ValueError: Map 'SMAC_Maps/2m_vs_1z.SC2Map' not found.
+CloseHandler: 127.0.0.1:33634 disconnected
+Traceback (most recent call last):
+  File "../train/train_smac.py", line 262, in <module>
+    main(sys.argv[1:])
+  File "../train/train_smac.py", line 247, in main
+    runner.run()
+  File "/content/drive/MyDrive/on-policy/onpolicy/runner/shared/smac_runner.py", line 17, in run
+    self.warmup()
+  File "/content/drive/MyDrive/on-policy/onpolicy/runner/shared/smac_runner.py", line 100, in warmup
+    obs, share_obs, available_actions = self.envs.reset()
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 377, in reset
+    results = [remote.recv() for remote in self.remotes]
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 377, in <listcomp>
+    results = [remote.recv() for remote in self.remotes]
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 383, in _recv
+    raise EOFError
+EOFError

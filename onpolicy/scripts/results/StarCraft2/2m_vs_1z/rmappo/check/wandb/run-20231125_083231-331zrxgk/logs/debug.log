@@ -1,0 +1,13 @@
+2023-11-25 08:32:31,558 INFO    MainThread:44521 [wandb_init.py:_log_setup():292] Logging user logs to /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231125_083231-331zrxgk/logs/debug.log
+2023-11-25 08:32:31,560 INFO    MainThread:44521 [wandb_init.py:_log_setup():293] Logging internal logs to /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231125_083231-331zrxgk/logs/debug-internal.log
+2023-11-25 08:32:31,560 INFO    MainThread:44521 [wandb_setup.py:_flush():68] setting env: {}
+2023-11-25 08:32:31,560 INFO    MainThread:44521 [wandb_setup.py:_flush():68] setting user settings: {}
+2023-11-25 08:32:31,560 INFO    MainThread:44521 [wandb_setup.py:_flush():68] multiprocessing start_methods=fork,spawn,forkserver
+2023-11-25 08:32:33,142 INFO    MainThread:44521 [wandb_run.py:_console_start():1265] atexit reg
+2023-11-25 08:32:33,150 INFO    MainThread:44521 [wandb_run.py:_redirect():1135] redirect: SettingsConsole.REDIRECT
+2023-11-25 08:32:33,151 INFO    MainThread:44521 [wandb_run.py:_redirect():1138] Redirecting console.
+2023-11-25 08:32:33,152 INFO    MainThread:44521 [redirect.py:install():196] install start
+2023-11-25 08:32:33,154 INFO    MainThread:44521 [redirect.py:install():211] install stop
+2023-11-25 08:32:33,154 INFO    MainThread:44521 [redirect.py:install():196] install start
+2023-11-25 08:32:33,155 INFO    MainThread:44521 [redirect.py:install():211] install stop
+2023-11-25 08:32:33,156 INFO    MainThread:44521 [wandb_run.py:_redirect():1182] Redirects installed.

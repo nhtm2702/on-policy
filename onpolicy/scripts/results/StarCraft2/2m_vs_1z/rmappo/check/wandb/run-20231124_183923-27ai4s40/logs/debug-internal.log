@@ -1,0 +1,143 @@
+2023-11-24 18:39:24,357 INFO    MainThread:10602 [internal.py:wandb_internal():62] W&B internal server running at pid: 10602
+2023-11-24 18:39:24,360 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: check_version
+2023-11-24 18:39:24,360 INFO    WriterThread:10602 [datastore.py:open_for_write():76] open: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/run-27ai4s40.wandb
+2023-11-24 18:39:24,363 DEBUG   SenderThread:10602 [sender.py:send():88] send: header
+2023-11-24 18:39:24,383 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:24,383 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: check_version
+2023-11-24 18:39:24,386 DEBUG   Thread-4  :10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): pypi.org:443
+2023-11-24 18:39:24,442 DEBUG   Thread-4  :10602 [connectionpool.py:_make_request():393] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 80491
+2023-11-24 18:39:24,473 DEBUG   SenderThread:10602 [sender.py:send():88] send: run
+2023-11-24 18:39:24,511 DEBUG   SenderThread:10602 [cmd.py:execute():719] Popen(['git', 'cat-file', '--batch-check'], cwd=/content/drive/MyDrive/on-policy, universal_newlines=False, shell=None, istream=<valid stream>)
+2023-11-24 18:39:24,534 DEBUG   SenderThread:10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2023-11-24 18:39:24,663 DEBUG   SenderThread:10602 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2023-11-24 18:39:24,677 INFO    SenderThread:10602 [dir_watcher.py:__init__():167] watching files in: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files
+2023-11-24 18:39:24,677 INFO    SenderThread:10602 [sender.py:_start_run_threads():464] run started: 27ai4s40 with start time 1700851163
+2023-11-24 18:39:24,714 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: run_start
+2023-11-24 18:39:24,714 DEBUG   SenderThread:10602 [sender.py:send():88] send: summary
+2023-11-24 18:39:24,719 INFO    SenderThread:10602 [sender.py:_save_file():542] saving file wandb-summary.json with policy end
+2023-11-24 18:39:24,747 DEBUG   HandlerThread:10602 [cmd.py:execute():719] Popen(['git', 'cat-file', '--batch-check'], cwd=/content/drive/MyDrive/on-policy, universal_newlines=False, shell=None, istream=<valid stream>)
+2023-11-24 18:39:24,765 DEBUG   HandlerThread:10602 [cmd.py:execute():719] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/content/drive/MyDrive/on-policy, universal_newlines=False, shell=None, istream=None)
+2023-11-24 18:39:24,785 DEBUG   SenderThread:10602 [sender.py:send():88] send: files
+2023-11-24 18:39:24,786 INFO    SenderThread:10602 [sender.py:_save_file():542] saving file wandb-metadata.json with policy now
+2023-11-24 18:39:24,789 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: status
+2023-11-24 18:39:24,792 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:24,792 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: status
+2023-11-24 18:39:24,797 DEBUG   SenderThread:10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2023-11-24 18:39:24,837 DEBUG   Thread-11 :10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2023-11-24 18:39:24,912 DEBUG   SenderThread:10602 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2023-11-24 18:39:25,000 DEBUG   Thread-11 :10602 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2023-11-24 18:39:25,013 DEBUG   Thread-11 :10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): storage.googleapis.com:443
+2023-11-24 18:39:25,186 DEBUG   Thread-11 :10602 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/mitra2702/StarCraft2/27ai4s40/wandb-metadata.json?Expires=1700937564&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=T%2FdRk3AJmanxTke8eUqRAQ1JsdIFn4rf%2BTcBaV8bQbOSZ%2F6d4x3Lq2gC2R626eW9gxrUVhVWYHDAkxIppNgcuLptQ8REC20RliyWUWIhWaNhIQJKC36TvRs7HIjLp8NgSlwcs3%2FAZusIbjh8YJdA3xf%2BVM9JCdWpDi6mYS2tvcm3uhG72G2nybfkrR0NXjZKFbznyyVapRc0zw8%2FkIY8O2AEO9qd5pQbmoTDc35FztC2AxoOPNTZxXVwdL2saKjZ50%2Bvs4ZTri%2BmzBE6ErUM8kXE%2B5spiQ7KQb7M%2Frh2Fq1H8N2jUxBQ0mkwFjGEbCX98Z%2BJfT2DHLM5NFUiuHyugw%3D%3D HTTP/1.1" 200 0
+2023-11-24 18:39:25,189 INFO    Thread-11 :10602 [upload_job.py:push():112] Uploaded file /tmp/tmp52srw4_iwandb/3n6bpoom-wandb-metadata.json
+2023-11-24 18:39:25,611 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: poll_exit
+2023-11-24 18:39:25,611 DEBUG   SenderThread:10602 [sender.py:send():88] send: exit
+2023-11-24 18:39:25,611 INFO    SenderThread:10602 [sender.py:send_exit():156] handling exit code: 1
+2023-11-24 18:39:25,612 INFO    SenderThread:10602 [sender.py:send_exit():164] send defer
+2023-11-24 18:39:25,612 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:25,612 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: defer
+2023-11-24 18:39:25,612 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: poll_exit
+2023-11-24 18:39:25,613 INFO    HandlerThread:10602 [handler.py:handle_request_defer():68] handle defer: 0
+2023-11-24 18:39:25,613 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:25,614 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: defer
+2023-11-24 18:39:25,614 INFO    SenderThread:10602 [sender.py:send_request_defer():173] handle sender defer: 0
+2023-11-24 18:39:25,614 INFO    SenderThread:10602 [sender.py:send_request_defer():209] send defer: 1
+2023-11-24 18:39:25,615 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: defer
+2023-11-24 18:39:25,615 INFO    HandlerThread:10602 [handler.py:handle_request_defer():68] handle defer: 1
+2023-11-24 18:39:25,647 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:25,647 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: defer
+2023-11-24 18:39:25,648 INFO    SenderThread:10602 [sender.py:send_request_defer():173] handle sender defer: 1
+2023-11-24 18:39:25,648 INFO    SenderThread:10602 [sender.py:send_request_defer():209] send defer: 2
+2023-11-24 18:39:25,648 DEBUG   SenderThread:10602 [sender.py:send():88] send: stats
+2023-11-24 18:39:25,648 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: defer
+2023-11-24 18:39:25,649 INFO    HandlerThread:10602 [handler.py:handle_request_defer():68] handle defer: 2
+2023-11-24 18:39:25,649 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:25,649 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: defer
+2023-11-24 18:39:25,649 INFO    SenderThread:10602 [sender.py:send_request_defer():173] handle sender defer: 2
+2023-11-24 18:39:25,649 INFO    SenderThread:10602 [sender.py:send_request_defer():209] send defer: 3
+2023-11-24 18:39:25,650 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: defer
+2023-11-24 18:39:25,650 INFO    HandlerThread:10602 [handler.py:handle_request_defer():68] handle defer: 3
+2023-11-24 18:39:25,650 DEBUG   SenderThread:10602 [sender.py:send():88] send: summary
+2023-11-24 18:39:25,654 INFO    SenderThread:10602 [sender.py:_save_file():542] saving file wandb-summary.json with policy end
+2023-11-24 18:39:25,655 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:25,655 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: defer
+2023-11-24 18:39:25,656 INFO    SenderThread:10602 [sender.py:send_request_defer():173] handle sender defer: 3
+2023-11-24 18:39:25,656 INFO    SenderThread:10602 [sender.py:send_request_defer():209] send defer: 4
+2023-11-24 18:39:25,656 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: defer
+2023-11-24 18:39:25,656 INFO    HandlerThread:10602 [handler.py:handle_request_defer():68] handle defer: 4
+2023-11-24 18:39:25,657 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:25,657 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: defer
+2023-11-24 18:39:25,657 INFO    SenderThread:10602 [sender.py:send_request_defer():173] handle sender defer: 4
+2023-11-24 18:39:25,657 INFO    SenderThread:10602 [dir_watcher.py:finish():280] shutting down directory watcher
+2023-11-24 18:39:25,684 INFO    SenderThread:10602 [dir_watcher.py:_on_file_created():215] file/dir created: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/output.log
+2023-11-24 18:39:25,685 INFO    SenderThread:10602 [dir_watcher.py:_on_file_created():215] file/dir created: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/wandb-metadata.json
+2023-11-24 18:39:25,686 INFO    SenderThread:10602 [dir_watcher.py:_on_file_created():215] file/dir created: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/wandb-summary.json
+2023-11-24 18:39:25,687 INFO    SenderThread:10602 [dir_watcher.py:_on_file_created():215] file/dir created: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/requirements.txt
+2023-11-24 18:39:25,688 INFO    SenderThread:10602 [dir_watcher.py:finish():309] scan: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files
+2023-11-24 18:39:25,688 INFO    SenderThread:10602 [dir_watcher.py:finish():315] scan save: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/config.yaml config.yaml
+2023-11-24 18:39:25,690 INFO    SenderThread:10602 [dir_watcher.py:finish():315] scan save: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/wandb-summary.json wandb-summary.json
+2023-11-24 18:39:25,695 DEBUG   Thread-12 :10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2023-11-24 18:39:25,696 INFO    SenderThread:10602 [dir_watcher.py:finish():315] scan save: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/requirements.txt requirements.txt
+2023-11-24 18:39:25,698 INFO    SenderThread:10602 [dir_watcher.py:finish():315] scan save: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/wandb-metadata.json wandb-metadata.json
+2023-11-24 18:39:25,698 INFO    SenderThread:10602 [dir_watcher.py:finish():315] scan save: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/output.log output.log
+2023-11-24 18:39:25,700 INFO    SenderThread:10602 [sender.py:send_request_defer():209] send defer: 5
+2023-11-24 18:39:25,700 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: defer
+2023-11-24 18:39:25,701 INFO    HandlerThread:10602 [handler.py:handle_request_defer():68] handle defer: 5
+2023-11-24 18:39:25,701 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:25,701 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: defer
+2023-11-24 18:39:25,701 INFO    SenderThread:10602 [sender.py:send_request_defer():173] handle sender defer: 5
+2023-11-24 18:39:25,701 INFO    SenderThread:10602 [file_pusher.py:finish():169] shutting down file pusher
+2023-11-24 18:39:25,702 INFO    SenderThread:10602 [sender.py:send_request_defer():209] send defer: 6
+2023-11-24 18:39:25,702 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: defer
+2023-11-24 18:39:25,702 INFO    HandlerThread:10602 [handler.py:handle_request_defer():68] handle defer: 6
+2023-11-24 18:39:25,703 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:25,703 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: defer
+2023-11-24 18:39:25,703 INFO    SenderThread:10602 [sender.py:send_request_defer():173] handle sender defer: 6
+2023-11-24 18:39:25,706 DEBUG   Thread-5  :10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2023-11-24 18:39:25,711 DEBUG   Thread-13 :10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2023-11-24 18:39:25,721 DEBUG   Thread-14 :10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2023-11-24 18:39:25,729 DEBUG   Thread-15 :10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): api.wandb.ai:443
+2023-11-24 18:39:25,794 DEBUG   Thread-5  :10602 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/mitra2702/StarCraft2/27ai4s40/file_stream HTTP/1.1" 200 None
+2023-11-24 18:39:25,804 DEBUG   Thread-13 :10602 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2023-11-24 18:39:25,809 DEBUG   Thread-13 :10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): storage.googleapis.com:443
+2023-11-24 18:39:25,810 DEBUG   Thread-14 :10602 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2023-11-24 18:39:25,816 DEBUG   Thread-14 :10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): storage.googleapis.com:443
+2023-11-24 18:39:25,837 DEBUG   Thread-5  :10602 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/mitra2702/StarCraft2/27ai4s40/file_stream HTTP/1.1" 200 None
+2023-11-24 18:39:25,839 INFO    SenderThread:10602 [sender.py:send_request_defer():209] send defer: 7
+2023-11-24 18:39:25,839 DEBUG   Thread-12 :10602 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2023-11-24 18:39:25,840 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: defer
+2023-11-24 18:39:25,842 INFO    HandlerThread:10602 [handler.py:handle_request_defer():68] handle defer: 7
+2023-11-24 18:39:25,842 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:25,843 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: defer
+2023-11-24 18:39:25,843 INFO    SenderThread:10602 [sender.py:send_request_defer():173] handle sender defer: 7
+2023-11-24 18:39:25,843 INFO    SenderThread:10602 [sender.py:send_request_defer():209] send defer: 8
+2023-11-24 18:39:25,844 DEBUG   SenderThread:10602 [sender.py:send():88] send: final
+2023-11-24 18:39:25,844 DEBUG   SenderThread:10602 [sender.py:send():88] send: footer
+2023-11-24 18:39:25,844 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: defer
+2023-11-24 18:39:25,845 INFO    HandlerThread:10602 [handler.py:handle_request_defer():68] handle defer: 8
+2023-11-24 18:39:25,845 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:25,845 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: defer
+2023-11-24 18:39:25,845 INFO    SenderThread:10602 [sender.py:send_request_defer():173] handle sender defer: 8
+2023-11-24 18:39:25,850 DEBUG   Thread-12 :10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): storage.googleapis.com:443
+2023-11-24 18:39:25,853 DEBUG   Thread-15 :10602 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2023-11-24 18:39:25,860 DEBUG   Thread-15 :10602 [connectionpool.py:_new_conn():823] Starting new HTTPS connection (1): storage.googleapis.com:443
+2023-11-24 18:39:25,937 DEBUG   Thread-13 :10602 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/mitra2702/StarCraft2/27ai4s40/wandb-summary.json?Expires=1700937565&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=U6vhCA8yz3Z4KM3%2FnWZtu%2FTB1YIVhPwmZeH168KkszndxHilNNKn8MdZc1dE0xJM6pGg6%2FsYBxT7LfAztFli6yhcgEvseaTmExvhumjc6ewxG8MJ50hRrFs0RdKN%2BC7q%2FrEDXztSlpjjh96TZozMp5N37QQhb3ohi%2BSIbqP5OKabKhHlVOKSVT%2FHNxxEoU0R6ILpbM%2BVnDIG3lZPtVV7%2BZ2y6qY%2FwBBv7S6%2FstyNbzo15pqDOJxSc4YVDzx6KN%2FkYAId8BwvDcrVJQ3HHxamWgc1N%2F%2Fm5wPu%2BvXP1aSXAE%2FicCDz0CzpcmwInV2U33sSV8Qw%2BYfrWgM9IjF97L1LCQ%3D%3D HTTP/1.1" 200 0
+2023-11-24 18:39:25,939 INFO    Thread-13 :10602 [upload_job.py:push():112] Uploaded file /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/wandb-summary.json
+2023-11-24 18:39:25,943 DEBUG   Thread-14 :10602 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/mitra2702/StarCraft2/27ai4s40/requirements.txt?Expires=1700937565&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=dakCyRHqdmS6dQPKN29sVThveOFPYMd1ro5S1UU8nHTr6%2BUy8l2%2B9HH5AuFPcMnWM84cuW00zlbItyxVXvCaqGkEH%2FGeyNf2xbArxBDl4eV99sRTO4pN9wdd%2BZ8zjUOEQDJYqk%2FFquWvl2aBFla8xlst6ZBba8GlbffHyjtxCfjVvw%2F7yaapv9pQXL19%2BstL3C3y5AvzYuFzNJpvtu7P76V6EX%2BWdjW4eFX0H3EYTPpj2d9%2Fl7P79wp983LN4jBUuAZEKA%2BgRf9K4Npn%2Br2IZyPGSzRvJK%2BxoDiDVVX8Iu2vjQKqkO05bt4wUKPfbVVMJ4%2F6%2BfYpJdGW1PgvvsZgyQ%3D%3D HTTP/1.1" 200 0
+2023-11-24 18:39:25,945 INFO    Thread-14 :10602 [upload_job.py:push():112] Uploaded file /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/requirements.txt
+2023-11-24 18:39:25,994 DEBUG   Thread-12 :10602 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/mitra2702/StarCraft2/27ai4s40/config.yaml?Expires=1700937565&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=E98eQnHyWCQQ09XXYMGqKsBageRQjBpgDXY5B%2FUr%2FqeZExDDk5yGytJnBtBY%2F%2BkMK2auiSAn4I3ZcipONkesxoIthdCjhwnNdHaPjoKoubC7OTQeqnk%2F2zWbf%2Fgonn%2F85gt20YKoaaMMns1L%2FZxpvSP2ylPV7MSyTBaozMUUvH5ZdeuM3XORnnrf2%2BO9p2Rn%2BZzqazfjjLHjPQunwGiDaO4DwGUKxpNjvOyPH4ipkh8I7jPBWGID2y32JbLhRoylkf2tnxK7%2FxgWiVyQZULBk8gcyMj5L4jxUWXsZZIJP4wZgVVeFmY%2FWs1M4IKIVH4W6aGpKfUzWNJy5t%2BUOxL8WQ%3D%3D HTTP/1.1" 200 0
+2023-11-24 18:39:25,995 INFO    Thread-12 :10602 [upload_job.py:push():112] Uploaded file /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/config.yaml
+2023-11-24 18:39:26,000 DEBUG   Thread-15 :10602 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/mitra2702/StarCraft2/27ai4s40/output.log?Expires=1700937565&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=cW%2FEXVUKEudlx1vFiZC0A49PTsBq%2BHDAi0Acp75OR8k4F8TC%2FJ%2FjG1wyN7P1es9pv1TogiVVHwI3wG%2FJC0gkKa7B1kwuIo6MTbN%2BqytHwlCBSpXPCoei5avH1ONEGYyvnDNrdZLtnEPpCCxLHOrlQqwNyu%2Fobzq83utQwgXE4IXJrXMLxVt7xoac8wuHzCZ%2BAVcxgUwgwTXS63pJREM9HMlgNrY9lpij7ynzCVpgylEPc8WsgrtM91K1KO%2BJBC7IQYC1p0%2FoWjLhszaN3mhBYSyKYjD8p4UUJL8bV%2BOSVjP0T4yCBXx8R7LWGaIM7ZrEgTrF2v2Tmb3rPdYiDh5qsw%3D%3D HTTP/1.1" 200 0
+2023-11-24 18:39:26,002 INFO    Thread-15 :10602 [upload_job.py:push():112] Uploaded file /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/files/output.log
+2023-11-24 18:39:27,616 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: poll_exit
+2023-11-24 18:39:27,617 DEBUG   SenderThread:10602 [sender.py:send():88] send: request
+2023-11-24 18:39:27,617 DEBUG   SenderThread:10602 [sender.py:send_request():97] send_request: poll_exit
+2023-11-24 18:39:27,618 INFO    SenderThread:10602 [file_pusher.py:join():174] waiting for file pusher
+2023-11-24 18:39:27,620 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: get_summary
+2023-11-24 18:39:27,621 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: sampled_history
+2023-11-24 18:39:27,622 DEBUG   HandlerThread:10602 [handler.py:handle_request():54] handle_request: shutdown
+2023-11-24 18:39:27,622 INFO    HandlerThread:10602 [handler.py:finish():267] shutting down handler
+2023-11-24 18:39:27,844 INFO    WriterThread:10602 [datastore.py:close():257] close: /content/drive/MyDrive/on-policy/onpolicy/scripts/results/StarCraft2/2m_vs_1z/rmappo/check/wandb/run-20231124_183923-27ai4s40/run-27ai4s40.wandb
+2023-11-24 18:39:28,618 INFO    SenderThread:10602 [sender.py:finish():583] shutting down sender
+2023-11-24 18:39:28,618 INFO    SenderThread:10602 [file_pusher.py:finish():169] shutting down file pusher
+2023-11-24 18:39:28,619 INFO    SenderThread:10602 [file_pusher.py:join():174] waiting for file pusher
+2023-11-24 18:39:28,620 INFO    Dummy-16  :10602 [internal.py:handle_exit():137] Internal process exited

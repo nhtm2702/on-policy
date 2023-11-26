@@ -1,0 +1,449 @@
+obs_space:  [[36, [1, 12], [1, 6], [1, 4], [1, 14]], [36, [1, 12], [1, 6], [1, 4], [1, 14]]]
+share_obs_space:  [[44, [1, 15], [1, 9], [1, 4], [1, 16]], [44, [1, 15], [1, 9], [1, 4], [1, 16]]]
+act_space:  [Discrete(7), Discrete(7)]
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 18006 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-o8e7fsoe/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 19211 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-atdk5e9w/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 16913 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-vc4xpqay/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 22893 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-sh4y4o0z/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 17418 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-_jsu62kc/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 16359 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-1oe2vtc6/'
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 23493 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-mo99w63k/'
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 17264 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-5jrn7f2x/'
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Starting up...
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 1 complete
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:16913
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:17418
+Listening on: 127.0.0.1:22893
+Listening on: 127.0.0.1:18006
+Startup Phase 3 complete. Ready for commands.
+Startup Phase 3 complete. Ready for commands.
+Deferred error: 536936448 (0x20010000)
+Deferred error details: Bad profiling data. TimeMS: 8579522.000000 Conversion: 1.000000e-03
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:16359
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:23493
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:17264
+Startup Phase 3 complete. Ready for commands.
+Listening on: 127.0.0.1:19211
+Startup Phase 3 complete. Ready for commands.
+Deferred error: 536936448 (0x20010000)
+Deferred error details: Bad profiling data. TimeMS: 9184524.000000 Conversion: 1.000000e-03
+ConnectHandler: Request from 127.0.0.1:60848 accepted
+ConnectHandler: Request from 127.0.0.1:60592 accepted
+ConnectHandler: Request from 127.0.0.1:48992 accepted
+ConnectHandler: Request from 127.0.0.1:54680 accepted
+ReadyHandler: 127.0.0.1:60848 ready
+ReadyHandler: 127.0.0.1:60592 ready
+ReadyHandler: 127.0.0.1:54680 ready
+ReadyHandler: 127.0.0.1:48992 ready
+ConnectHandler: Request from 127.0.0.1:52738 accepted
+ConnectHandler: Request from 127.0.0.1:55432 accepted
+ReadyHandler: 127.0.0.1:55432 ready
+ReadyHandler: 127.0.0.1:52738 ready
+ConnectHandler: Request from 127.0.0.1:51956 accepted
+ReadyHandler: 127.0.0.1:51956 ready
+ConnectHandler: Request from 127.0.0.1:37722 accepted
+ReadyHandler: 127.0.0.1:37722 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Launching next game.
+Launching next game.
+Launching next game.
+Launching next game.
+Launching next game.
+Launching next game.
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 4
+Next launch phase started: 4
+Next launch phase started: 4
+Next launch phase started: 4
+Next launch phase started: 4
+Next launch phase started: 4
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Using default stable ids, none found at: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Game has started.
+Using default stable ids, none found at: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Game has started.
+Successfully loaded stable ids: GameData\stableid.json
+Using default stable ids, none found at: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Successfully loaded stable ids: GameData\stableid.json
+Successfully loaded stable ids: GameData\stableid.json
+Sending ResponseJoinGame
+Game has started.
+Using default stable ids, none found at: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Sending ResponseJoinGame
+Game has started.
+Sending ResponseJoinGame
+Game has started.
+Using default stable ids, none found at: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Using default stable ids, none found at: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Successfully loaded stable ids: GameData\stableid.json
+Successfully loaded stable ids: GameData\stableid.json
+Successfully loaded stable ids: GameData\stableid.json
+Sending ResponseJoinGame
+Sending ResponseJoinGame
+Sending ResponseJoinGame
+Game has started.
+Using default stable ids, none found at: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Game has started.
+Using default stable ids, none found at: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Successfully loaded stable ids: GameData\stableid.json
+Successfully loaded stable ids: GameData\stableid.json
+Sending ResponseJoinGame
+Sending ResponseJoinGame
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 0/3125 episodes, total num timesteps 3200/10000000, FPS 202.
+
+incre win rate is 0.0.
+Version: B75689 (SC2.4.10)
+Build: Aug 12 2019 17:16:57
+Command Line: '"/content/drive/MyDrive/on-policy/StarCraftII/Versions/Base75689/SC2_x64" -listen 127.0.0.1 -port 17722 -dataDir /content/drive/MyDrive/on-policy/StarCraftII/ -tempDir /tmp/sc-665t5psv/'
+Starting up...
+Startup Phase 1 complete
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:17722
+Startup Phase 3 complete. Ready for commands.
+ConnectHandler: Request from 127.0.0.1:45130 accepted
+ReadyHandler: 127.0.0.1:45130 ready
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Using default stable ids, none found at: /content/drive/MyDrive/on-policy/StarCraftII/stableid.json
+Successfully loaded stable ids: GameData\stableid.json
+Sending ResponseJoinGame
+eval win rate is 0.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 5/3125 episodes, total num timesteps 19200/10000000, FPS 139.
+
+incre win rate is 0.0.
+
+ Map 2m_vs_1z Algo rmappo Exp check updates 10/3125 episodes, total num timesteps 35200/10000000, FPS 141.
+
+incre win rate is 0.002751031636863824.
+Process Process-5:
+Process Process-9:
+Process Process-8:
+Process Process-7:
+Process Process-6:
+Process Process-4:
+Process Process-3:
+Process Process-2:
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 304, in shareworker
+    cmd, data = remote.recv()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 304, in shareworker
+    cmd, data = remote.recv()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 304, in shareworker
+    cmd, data = remote.recv()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 304, in shareworker
+    cmd, data = remote.recv()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 304, in shareworker
+    cmd, data = remote.recv()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 304, in shareworker
+    cmd, data = remote.recv()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 306, in shareworker
+    ob, s_ob, reward, done, info, available_actions = env.step(data)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/starcraft2/StarCraft2_Env.py", line 490, in step
+    self._obs = self._controller.observe()
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/lib/remote_controller.py", line 99, in _valid_status
+    return func(self, *args, **kwargs)
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/lib/stopwatch.py", line 212, in _stopwatch
+    return func(*args, **kwargs)
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/lib/remote_controller.py", line 250, in observe
+    disable_fog=disable_fog))
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/lib/protocol.py", line 151, in send
+    res = self.send_req(req)
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/lib/protocol.py", line 131, in send_req
+    return self.read()
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/lib/stopwatch.py", line 212, in _stopwatch
+    return func(*args, **kwargs)
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/lib/protocol.py", line 102, in read
+    response = self._read()
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/pysc2/lib/protocol.py", line 183, in _read
+    response_str = self._sock.recv()
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/websocket/_core.py", line 302, in recv
+    opcode, data = self.recv_data()
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/websocket/_core.py", line 319, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/websocket/_core.py", line 332, in recv_data_frame
+    frame = self.recv_frame()
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/websocket/_core.py", line 366, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/websocket/_abnf.py", line 361, in recv_frame
+    self.recv_header()
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/websocket/_abnf.py", line 309, in recv_header
+    header = self.recv_strict(2)
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/websocket/_abnf.py", line 396, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/websocket/_core.py", line 441, in _recv
+    return recv(self.sock, bufsize)
+  File "/usr/local/envs/marl/lib/python3.6/site-packages/websocket/_socket.py", line 81, in recv
+    bytes_ = sock.recv(bufsize)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 304, in shareworker
+    cmd, data = remote.recv()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "../train/train_smac.py", line 262, in <module>
+    main(sys.argv[1:])
+  File "../train/train_smac.py", line 247, in main
+    runner.run()
+  File "/content/drive/MyDrive/on-policy/onpolicy/runner/shared/smac_runner.py", line 34, in run
+    obs, share_obs, rewards, dones, infos, available_actions = self.envs.step(actions)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 106, in step
+    self.step_async(actions)
+  File "/content/drive/MyDrive/on-policy/onpolicy/envs/env_wrappers.py", line 365, in step_async
+    remote.send(('step', action))
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 404, in _send_bytes
+    self._send(header + buf)
+  File "/usr/local/envs/marl/lib/python3.6/multiprocessing/connection.py", line 368, in _send
+    n = write(self._handle, buf)
+KeyboardInterrupt

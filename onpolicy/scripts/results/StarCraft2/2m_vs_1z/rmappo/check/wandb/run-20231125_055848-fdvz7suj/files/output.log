@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "../train/train_smac.py", line 261, in <module>
+    main(sys.argv[1:])
+  File "../train/train_smac.py", line 245, in main
+    runner = Runner(config)
+  File "/content/drive/MyDrive/on-policy/onpolicy/runner/shared/smac_runner.py", line 14, in __init__
+    super(SMACRunner, self).__init__(config)
+  File "/content/drive/MyDrive/on-policy/onpolicy/runner/shared/base_runner.py", line 22, in __init__
+    self.device = device
+NameError: name 'device' is not defined
